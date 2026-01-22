@@ -44,3 +44,7 @@ Retrieves all available products.
 This section shows how to make a basic request to the API.
 
 This documentation was created as a technical writing portfolio sample.
+
+# Limitation
+
+Short list
