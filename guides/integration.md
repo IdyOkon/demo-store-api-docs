@@ -66,9 +66,9 @@ Applications should handle these responses gracefully.
 
 
 ## Common issues
--Missing or invalid authentication token
--Incorrect request payload format
--Invalid product or order IDs
+- Missing or invalid authentication token
+- Incorrect request payload format
+- Invalid product or order IDs
 
 
 ## Conclusion
@@ -76,6 +76,6 @@ This guide demonstrated how to authenticate, retrieve products, and create order
 For detailed endpoint specifications, refer to the main API documentation.
 
 ## Limitations
-Intended for demo and testing purposes only
-Data may reset without notice
-Not suitable for production use
+- Intended for demo and testing purposes only
+- Data may reset without notice
+- Not suitable for production use
