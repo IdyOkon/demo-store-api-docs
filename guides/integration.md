@@ -56,12 +56,14 @@ POST /orders
 
 
 ## Step 4: Error Handling
+
 The API uses standard HTTP status codes:
-Status Code	Description
-400	Bad request
-401	Unauthorized
-404	Resource not found
-500	Internal server error
+
+|Status Code	|Description
+|400	|Bad request
+|401	|Unauthorized
+|404	|Resource not found
+|500	|Internal server error
 
 
 ## Common issues
