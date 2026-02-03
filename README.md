@@ -48,3 +48,8 @@ This documentation was created as a technical writing portfolio sample.
 # Limitation
 
 Short list
+
+
+# Guides
+- [How to Integrate the Demo Store API](guides/integration.md)
+
