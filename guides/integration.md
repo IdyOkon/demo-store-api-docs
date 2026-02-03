@@ -59,24 +59,20 @@ POST /orders
 Request body
 
 {
-
   "product_id": "p123",
   
   "quantity": 1
-  
-}
+  }
 
 Example response
 
 {
-
   "order_id": "o456",
   
   "status": "created",
   
   "total": 120.00
-  
-}
+  }
 
 
 ## Step 4: Error Handling
