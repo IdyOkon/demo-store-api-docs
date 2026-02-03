@@ -33,7 +33,7 @@ curl -H "Authorization: Bearer YOUR_API_TOKEN" \
 https://api.demostore.com/v1/products
 
 
-## Step 2: Get Products
+**## Step 2: Get Products**
 GET /products
 {
   "products": [
@@ -45,6 +45,7 @@ GET /products
     }
   ]
 }
+
 
 
 ## Step 3: Create an order
@@ -68,6 +69,8 @@ Status Code/Description
 500:	Internal server error
 Applications should handle these responses gracefully.
 
+
+
 ## Common issues
 -Missing or invalid authentication token
 -Incorrect request payload format
@@ -77,6 +80,7 @@ Applications should handle these responses gracefully.
 ## Conclusion
 This guide demonstrated how to authenticate, retrieve products, and create orders using the Demo Store API.
 For detailed endpoint specifications, refer to the main API documentation.
+
 
 
 ## Limitations
