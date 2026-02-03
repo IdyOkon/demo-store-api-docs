@@ -57,7 +57,6 @@ Example Response
 POST /orders
 
 Request body
-{
 
   {
 
@@ -67,11 +66,8 @@ Request body
    
   }
 
-}
-
 
 Example response
-{
 
   {
 
@@ -83,7 +79,6 @@ Example response
   
   }
 
-}
 
 
 ## Step 4: Error Handling
