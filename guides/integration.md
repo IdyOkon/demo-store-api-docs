@@ -28,8 +28,12 @@ Include your API token in the `Authorization` header of every request:
 
 
 
-## Step 2: Get Products
+## Step 2: Retrieve Products
+
 GET /products
+
+Example Response
+
 {
   "products": [
     {
