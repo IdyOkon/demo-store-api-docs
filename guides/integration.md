@@ -27,13 +27,8 @@ The Demo Store API uses token-based authentication.
 Include your API token in the `Authorization` header of every request:
 
 
-Example
-```bash
-curl -H "Authorization: Bearer YOUR_API_TOKEN" \
-https://api.demostore.com/v1/products
 
-
-**## Step 2: Get Products**
+## Step 2: Get Products
 GET /products
 {
   "products": [
@@ -45,7 +40,6 @@ GET /products
     }
   ]
 }
-
 
 
 ## Step 3: Create an order
@@ -60,6 +54,7 @@ POST /orders
   "total": 120.00
 }
 
+
 ## Step 4: Error Handling
 The API uses standard HTTP status codes:
 Status Code/Description
@@ -68,7 +63,6 @@ Status Code/Description
 404:	Resource not found
 500:	Internal server error
 Applications should handle these responses gracefully.
-
 
 
 ## Common issues
@@ -81,10 +75,7 @@ Applications should handle these responses gracefully.
 This guide demonstrated how to authenticate, retrieve products, and create orders using the Demo Store API.
 For detailed endpoint specifications, refer to the main API documentation.
 
-
-
 ## Limitations
 Intended for demo and testing purposes only
 Data may reset without notice
 Not suitable for production use
-
