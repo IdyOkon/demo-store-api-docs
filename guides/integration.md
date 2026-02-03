@@ -57,19 +57,23 @@ Example Response
 POST /orders
 
 Request body
-
 {
+
+  {
 
    "product_id": "p123",
   
    "quantity": 1
-  
+   
+  }
+
 }
 
 
 Example response
-
 {
+
+  {
 
    "order_id": "o456",
   
@@ -77,6 +81,8 @@ Example response
   
    "total": 120.00
   
+  }
+
 }
 
 
