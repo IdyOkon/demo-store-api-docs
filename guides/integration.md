@@ -60,24 +60,24 @@ Request body
 
 {
 
-  "product_id": "p123",
+   "product_id": "p123",
   
-  "quantity": 1
+   "quantity": 1
   
-  }
+}
 
 
 Example response
 
 {
 
-  "order_id": "o456",
+   "order_id": "o456",
   
-  "status": "created",
+   "status": "created",
   
-  "total": 120.00
+   "total": 120.00
   
-  }
+}
 
 
 ## Step 4: Error Handling
