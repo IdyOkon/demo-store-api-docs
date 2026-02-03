@@ -35,27 +35,47 @@ GET /products
 Example Response
 
 {
+
   "products": [
+  
     {
       "id": "p123",
+      
       "name": "Wireless Headphones",
+      
       "price": 120.00,
+      
       "currency": "USD"
+      
     }
   ]
 }
 
 
 ## Step 3: Create an order
+
 POST /orders
+
+Request body
+
 {
+
   "product_id": "p123",
+  
   "quantity": 1
+  
 }
+
+Example response
+
 {
+
   "order_id": "o456",
+  
   "status": "created",
+  
   "total": 120.00
+  
 }
 
 
