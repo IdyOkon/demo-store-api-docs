@@ -34,6 +34,8 @@ GET /products
 
 Example Response
 
+```json
+
 {
 
   "products": [
@@ -50,6 +52,9 @@ Example Response
     }
   ]
 }
+
+
+```
 
 
 ## Step 3: Create an order
