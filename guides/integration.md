@@ -58,6 +58,8 @@ POST /orders
 
 Request body
 
+```json
+
   {
 
    "product_id": "p123",
@@ -68,6 +70,8 @@ Request body
 
 
 Example response
+
+```json
 
   {
 
