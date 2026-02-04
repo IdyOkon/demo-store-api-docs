@@ -69,7 +69,7 @@ Request body
   }
 
 
-## Example response
+Example response
 
 
 
@@ -84,6 +84,7 @@ Request body
   }
 
 
+```md
 
 ## Step 4: Error Handling
 
